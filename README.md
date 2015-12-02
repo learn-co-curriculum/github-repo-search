@@ -11,3 +11,5 @@ Let's do a bit more...let's let users search all of the github repos. Bring over
   3. Add a `UIBarButtonItem`. When a user taps the button, it should display a `UIAlertController` that asks what the user would like to search for. When they select Search perform the search and then display the updated list of repos. `UIAlertController` is new in iOS 8. [This](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) is my favorite resource on it.
   4. Implement (and re-implement) all the networking stuff using AFNetworking.
   5. Starring and all that should still work!
+
+<a href='https://learn.co/lessons/github-repo-search' data-visibility='hidden'>View this lesson on Learn.co</a>
