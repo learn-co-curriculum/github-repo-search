@@ -12,4 +12,4 @@ Let's do a bit more...let's let users search all of the github repos. Bring over
   4. Implement (and re-implement) all the networking stuff using AFNetworking.
   5. Starring and all that should still work!
 
-<a href='https://learn.co/lessons/github-repo-search' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-repo-search' title='github-repo-search'>github-repo-search</a> on Learn.co and start learning to code for free.</p>
