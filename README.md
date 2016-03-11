@@ -63,7 +63,7 @@ AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 
   * TableViewController.h/m
 
-  * &lt;your_storyboard&gt;".storyboard (you may need to recreate your storyboard instead of dragging it over)
+  * &lt;your_storyboard&gt;.storyboard (you may need to recreate your storyboard instead of dragging it over)
 
 2. Write a method in `FISGithubAPIClient` that searches a repo from the text provided in the alert controller (which you will create). Take a look at the [repo search documentation](https://developer.github.com/v3/search/#search-repositories) and implement the appropriate method to do a search for repositories.
 
