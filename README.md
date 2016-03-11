@@ -53,7 +53,7 @@ AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 
 ## Instructions
 
-1. Bring over your code from the github-repo-starring lab. After dragging over your files, make sure you reestablish any connections needed in your project file. You will need:\
+1. Bring over your code from the github-repo-starring lab. After dragging over your files, make sure you reestablish any connections needed in your project file. You will need:
 
   * Constants.h/m
 
