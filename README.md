@@ -69,9 +69,7 @@ AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 
 3. Add a `UIBarButtonItem` such as `Search` to your TableViewController in Storyboard. When a user taps the button, it should display a `UIAlertController` that prompts the user to enter a search query. Add a `UIAlertAction` to initiate the search. [This]:http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html is my favorite resource on `UIAlertController`.
 
-When they select Search perform the search (utilizing the method you had written in Instruction#2) and then display the updated list of repos. `UIAlertController` is new in iOS 8. [This](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) is my favorite resource on it.
-
- 4. Re-implement the star/unstar methods using AFNetworking instead of NSURLSession. If you didn't complete the Github-Starring lab, reference those instructions implementing the methods using AFNetworking.
+4. Re-implement the star/unstar methods using AFNetworking instead of NSURLSession. If you didn't complete the Github-Starring lab, reference those instructions implementing the methods using AFNetworking.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/github-repo-search' title='github-repo-search'>github-repo-search</a> on Learn.co and start learning to code for free.</p>
 
