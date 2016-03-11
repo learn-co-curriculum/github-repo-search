@@ -63,11 +63,11 @@ AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
 
   * TableViewController.h/m
 
-  * <your_storyboard>.storyboard (you may need to recreate your storyboard instead of dragging it over)
+  * &lt;your_storyboard&gt;".storyboard (you may need to recreate your storyboard instead of dragging it over)
 
-2. Write a method in `FISGithubAPIClient` that searches a repo from the text provided in the alert controller (which you will create). Take a look at the [repo search documentation]:https://developer.github.com/v3/search/#search-repositories and implement the appropriate method to do a search for repositories.
+2. Write a method in `FISGithubAPIClient` that searches a repo from the text provided in the alert controller (which you will create). Take a look at the [repo search documentation](https://developer.github.com/v3/search/#search-repositories) and implement the appropriate method to do a search for repositories.
 
-3. Add a `UIBarButtonItem` such as `Search` to your TableViewController in Storyboard. When a user taps the button, it should display a `UIAlertController` that prompts the user to enter a search query. Add a `UIAlertAction` to initiate the search. [This]:http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html is my favorite resource on `UIAlertController`.
+3. Add a `UIBarButtonItem` such as `Search` to your TableViewController in Storyboard. When a user taps the button, it should display a `UIAlertController` that prompts the user to enter a search query. Add a `UIAlertAction` to initiate the search. [This](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) is my favorite resource on `UIAlertController`.
 
 4. Re-implement the star/unstar methods using AFNetworking instead of NSURLSession. If you didn't complete the Github-Starring lab, reference those instructions implementing the methods using AFNetworking.
 
